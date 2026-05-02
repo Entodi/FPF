@@ -24,6 +24,21 @@ Twelve specialist skills plus one router and one end-to-end pipeline:
 | [`fpf-name-card`](plugins/fpf/skills/fpf-name-card/SKILL.md) | Deliberate rename with Pareto-front rationale |
 | [`fpf-sota-pack`](plugins/fpf/skills/fpf-sota-pack/SKILL.md) | TraditionCards + OperatorCards + portfolio scaffold |
 
+## Installation
+
+FPF is distributed as a Claude Code plugin via a marketplace at this repo's root. From inside Claude Code:
+
+```text
+/plugin marketplace add Entodi/FPF
+/plugin install fpf@fpf-skills
+```
+
+Or run `/plugin` with no arguments to browse and install interactively from the **Discover** tab.
+
+After install, the thirteen `fpf-*` skills are callable by name (e.g. `/fpf`, `/fpf-pipeline`). Plugins are enabled by default — no settings changes required.
+
+To update later, re-run `/plugin marketplace update fpf-skills`. To remove, `/plugin uninstall fpf@fpf-skills`.
+
 ## Repository layout
 
 ```
