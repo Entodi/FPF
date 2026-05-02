@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fpf-skills",
+  "version": "0.1.0",
+  "description": "First Principles Framework (FPF) as Claude skills: bounded contexts, transformer quartet, decision criteria, alternative portfolios, evidence gaps, unified term sheets, claim registers, language-state preservation, same-entity rewrite, name cards, and state-of-the-art packs.",
+  "owner": {
+    "name": "Alex Fedorov",
+    "email": "eidos92@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fpf",
+      "description": "Operating system for thought, packaged as 12 skills. Covers FPF's six entry families and core durable artifacts. Based on Anatoly Levenchuk's First Principles Framework (April 2026).",
+      "version": "0.1.0",
+      "source": "./plugins/fpf",
+      "category": "productivity",
+      "homepage": "https://github.com/Entodi/FPF",
+      "upstream": "https://github.com/ailev/FPF"
+    }
+  ]
+}
